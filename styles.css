@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 5em;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+#burger-builder {
+    background-color: white;
+    padding: 5em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ingredient {
+    margin-bottom: 1em;
+}
+.juice {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+select, .checkbox-group {
+    width: 100%;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+
