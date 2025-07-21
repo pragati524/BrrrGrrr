@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brrrgrrr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customize Your Burger</h1>
+    </header>
+    <main>
+        <section id="burger-builder">
+            <h2>Build Your Burger</h2>
+            <div class="ingredient">
+                <label for="bun">Bun</label>
+                <select id="bun">
+                    <option value="white">White Bun</option>
+                    <option value="wholegrain">Wholegrain Bun</option>
+                    <option value="glutenfree">Gluten-Free Bun</option>
+                </select>
+            </div>
+            <div class="ingredient">
+                <label for="patty">Patty</label>
+                <select id="patty">
+                    <option value="beef">Beef Patty</option>
+                    <option value="chicken">Chicken Patty</option>
+                    <option value="veggie">Mutton Patty</option>
+                </select>
+            </div>
+            <div class="ingredient">
+                <label for="cheese">Cheese</label>
+                <select id="cheese">
+                    <option value="cheddar">Cheddar</option>
+                    <option value="american">American</option>
+                    <option value="swiss">Swiss</option>
+                </select>
+            </div>
+            <div class="ingredient">
+                <label for="extras">Extras</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" value="lettuce"> Lettuce</label>
+                    <label><input type="checkbox" value="tomato"> Tomato</label>
+                    <label><input type="checkbox" value="onions"> Onions</label>
+                    <label><input type="checkbox" value="bacon"> Bacon</label>
+                </div>
+                <div class="juice">
+                    <label for="drink">Drinks</label>
+                    <div class="checkbox-2">
+                        <label><input type="checkbox" value="Coke"> Coke</label>
+                        <label><input type="checkbox" value="Sprite"> Sprite</label>
+                        <label><input type="checkbox" value="Pepsi"> Pepsi</label>
+                        <label><input type="checkbox" value="Water"> Water</label>
+                    </div>
+            </div>
+            <button id="order-button">Order Now</button>
+        </section>
+        <section id="order-summary" class="hidden">
+            <h2>Order Summary</h2>
+            <p id="summary-text"></p>
+            <button id="confirm-button">Confirm Order</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Brrrgrrr</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
